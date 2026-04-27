@@ -1,0 +1,99 @@
+/* ============================================================
+   LEGAL PAGE STYLES
+   ============================================================ */
+
+.legal-hero {
+  padding-top: calc(var(--nav-height) + 60px);
+  padding-bottom: 60px;
+  background: var(--color-beige);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.legal-hero__breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--color-muted);
+  margin-bottom: 20px;
+}
+.legal-hero__breadcrumb a {
+  color: var(--color-primary);
+}
+.legal-hero__breadcrumb a:hover {
+  text-decoration: underline;
+}
+.legal-hero__breadcrumb span { color: var(--color-muted); }
+
+.legal-hero h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: var(--color-dark);
+}
+
+/* ============================================================
+   CONTENT
+   ============================================================ */
+.legal-content {
+  padding: 80px 0 100px;
+  background: var(--color-bg);
+}
+
+.legal-body {
+  max-width: 780px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.legal-section h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-dark);
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.legal-section p {
+  color: var(--color-text);
+  font-size: 0.95rem;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+.legal-section p:last-child { margin-bottom: 0; }
+
+.legal-section ul {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.legal-section ul li {
+  color: var(--color-text);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.legal-section a {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+.legal-section a:hover { color: var(--color-primary-warm); }
+
+.legal-box {
+  background: var(--color-beige);
+  border-radius: var(--radius);
+  border-left: 3px solid var(--color-primary);
+  padding: 20px 24px;
+  margin-top: 16px;
+}
+.legal-box p { margin-bottom: 8px; }
+.legal-box p:last-child { margin-bottom: 0; }
+
+.legal-box__label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--color-primary) !important;
+  margin-bottom: 10px !important;
+}

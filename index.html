@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Employbyte — Digital Employees, Powered by AI</title>
+  <meta name="description" content="Employbyte builds custom AI employees for your business. Automate workflows. Scale without limits. A Maxitory Company." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="/" class="nav__logo">Employ<span>byte</span></a>
+      <nav class="nav__links">
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#process" data-i18n="nav.process">Process</a>
+        <a href="#why" data-i18n="nav.why">Why Us</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="nav__actions">
+        <div class="lang-toggle">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <span class="lang-divider">|</span>
+          <button class="lang-btn" data-lang="de">DE</button>
+        </div>
+        <a href="https://calendly.com/k-beiner-maxitory/30min" target="_blank" rel="noopener" class="btn btn--primary" data-i18n="nav.cta">Book a Call</a>
+      </div>
+      <button class="nav__burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="#services" data-i18n="nav.services">Services</a>
+      <a href="#process" data-i18n="nav.process">Process</a>
+      <a href="#why" data-i18n="nav.why">Why Us</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+      <div class="lang-toggle lang-toggle--mobile">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <span class="lang-divider">|</span>
+        <button class="lang-btn" data-lang="de">DE</button>
+      </div>
+      <a href="https://calendly.com/k-beiner-maxitory/30min" target="_blank" rel="noopener" class="btn btn--primary" data-i18n="nav.cta">Book a Call</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg-text" aria-hidden="true">EMPLOYBYTE</div>
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <div class="hero__badge" data-i18n="hero.badge">Digital Employees · Powered by AI</div>
+        <h1 class="hero__title" data-i18n="hero.title">Hire Your First<br><span>Digital Employee</span></h1>
+        <p class="hero__sub" data-i18n="hero.sub">We build custom AI employees that take over your business workflows — so your team can focus on what truly matters.</p>
+        <div class="hero__ctas">
+          <a href="https://calendly.com/k-beiner-maxitory/30min" target="_blank" rel="noopener" class="btn btn--primary btn--lg" data-i18n="hero.cta">Book a Discovery Call</a>
+          <a href="#services" class="btn btn--ghost btn--lg" data-i18n="hero.cta2">Explore Services ↓</a>
+        </div>
+        <p class="hero__trust" data-i18n="hero.trust">A Maxitory Company &nbsp;·&nbsp; GDPR Compliant &nbsp;·&nbsp; End-to-End</p>
+      </div>
+      <div class="hero__image">
+        <img src="images/ai-illustration.png" alt="Digital Employee Consultant" />
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="container stats__grid">
+      <div class="stats__item">
+        <div class="stats__number">5+</div>
+        <div class="stats__label" data-i18n="stats.areas">Business Areas</div>
+      </div>
+      <div class="stats__item">
+        <div class="stats__number">100%</div>
+        <div class="stats__label" data-i18n="stats.custom">Custom Built</div>
+      </div>
+      <div class="stats__item">
+        <div class="stats__number">2–6</div>
+        <div class="stats__label" data-i18n="stats.weeks">Weeks to Launch</div>
+      </div>
+      <div class="stats__item">
+        <div class="stats__number">∞</div>
+        <div class="stats__label" data-i18n="stats.scale">Scalable</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONCEPT -->
+  <section class="concept" id="services">
+    <div class="container concept__inner">
+      <div class="concept__text">
+        <div class="label" data-i18n="concept.label">The Concept</div>
+        <h2 data-i18n="concept.title">What is a Digital Employee?</h2>
+        <p data-i18n="concept.p1">A digital employee is an AI system built specifically for your business that takes over defined tasks and workflows — reliably, automatically, and around the clock.</p>
+        <p data-i18n="concept.p2">Unlike generic AI tools, each Employbyte digital employee is custom-built for your exact processes, integrated into your existing systems, and handed over fully operational.</p>
+        <p data-i18n="concept.p3">Think of it as hiring a specialist — without the overhead.</p>
+      </div>
+      <div class="concept__visual">
+        <div class="concept__img-wrap">
+          <img src="images/hero-bg-2.png" alt="Team collaboration" />
+        </div>
+        <div class="concept__cards-row">
+          <div class="concept__card">
+            <div class="concept__icon">⚡</div>
+            <span data-i18n="concept.v1">Always on. Always accurate.</span>
+          </div>
+          <div class="concept__card">
+            <div class="concept__icon">🎯</div>
+            <span data-i18n="concept.v2">Built for your exact workflow.</span>
+          </div>
+          <div class="concept__card">
+            <div class="concept__icon">🔄</div>
+            <span data-i18n="concept.v3">Scales without limits.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VERTICALS -->
+  <section class="verticals">
+    <div class="container">
+      <div class="section-header">
+        <div class="label" data-i18n="verticals.label">Use Cases</div>
+        <h2 data-i18n="verticals.title">Digital Employees for Every Business Area</h2>
+        <p data-i18n="verticals.sub">From customer support to finance — we build AI employees that cover the full spectrum of your business needs.</p>
+      </div>
+      <div class="verticals__grid">
+
+        <div class="vertical-card">
+          <div class="vertical-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 18v-6a9 9 0 0 1 18 0v6"/>
+              <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3z"/>
+              <path d="M3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/>
+            </svg>
+          </div>
+          <h3 data-i18n="v1.title">Customer Support Agent</h3>
+          <p data-i18n="v1.desc">Handles inquiries, resolves tickets, and escalates edge cases — 24/7, in any language.</p>
+        </div>
+
+        <div class="vertical-card">
+          <div class="vertical-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/>
+              <polyline points="16 7 22 7 22 13"/>
+            </svg>
+          </div>
+          <h3 data-i18n="v2.title">Sales Development Rep</h3>
+          <p data-i18n="v2.desc">Qualifies leads, sends personalized outreach, and books meetings — automatically.</p>
+        </div>
+
+        <div class="vertical-card">
+          <div class="vertical-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+              <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+              <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+            </svg>
+          </div>
+          <h3 data-i18n="v3.title">Social Media Manager</h3>
+          <p data-i18n="v3.desc">Creates content, schedules posts, monitors engagement, and responds to comments.</p>
+        </div>
+
+        <div class="vertical-card">
+          <div class="vertical-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="5" width="20" height="14" rx="2"/>
+              <line x1="2" y1="10" x2="22" y2="10"/>
+            </svg>
+          </div>
+          <h3 data-i18n="v4.title">Finance & Accounting Assistant</h3>
+          <p data-i18n="v4.desc">Processes invoices, reconciles accounts, and generates financial reports on demand.</p>
+        </div>
+
+        <div class="vertical-card">
+          <div class="vertical-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <h3 data-i18n="v5.title">HR & Recruitment Assistant</h3>
+          <p data-i18n="v5.desc">Screens CVs, schedules interviews, and manages candidate communication end-to-end.</p>
+        </div>
+
+        <div class="vertical-card vertical-card--cta">
+          <div class="vertical-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="8" x2="12" y2="16"/>
+              <line x1="8" y1="12" x2="16" y2="12"/>
+            </svg>
+          </div>
+          <h3 data-i18n="v6.title">Your Custom Area</h3>
+          <p data-i18n="v6.desc">Don't see your use case? We build for any business workflow. Let's talk.</p>
+          <a href="https://calendly.com/k-beiner-maxitory/30min" target="_blank" rel="noopener" class="btn btn--outline" data-i18n="v6.cta">Book a Call</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS BANNER -->
+  <div class="process-banner">
+    <img src="images/hero-bg-3.png" alt="AI strategy presentation" />
+    <div class="process-banner__overlay"></div>
+    <div class="process-banner__text">
+      <span data-i18n="banner.label">End-to-End. From Idea to Live Deployment.</span>
+    </div>
+  </div>
+
+  <!-- PROCESS -->
+  <section class="process" id="process">
+    <div class="container">
+      <div class="section-header">
+        <div class="label" data-i18n="process.label">How It Works</div>
+        <h2 data-i18n="process.title">From First Contact to Live Deployment</h2>
+      </div>
+      <div class="process__steps">
+        <div class="process__step">
+          <div class="process__number">01</div>
+          <div class="process__content">
+            <h3 data-i18n="p1.title">Inquiry</h3>
+            <p data-i18n="p1.desc">Reach out and tell us about your business. We'll get back to you within 24 hours.</p>
+          </div>
+        </div>
+        <div class="process__step">
+          <div class="process__number">02</div>
+          <div class="process__content">
+            <h3 data-i18n="p2.title">Discovery Call</h3>
+            <p data-i18n="p2.desc">A 30-minute call to understand your workflows, team, and goals in depth.</p>
+          </div>
+        </div>
+        <div class="process__step">
+          <div class="process__number">03</div>
+          <div class="process__content">
+            <h3 data-i18n="p3.title">Proposal</h3>
+            <p data-i18n="p3.desc">We deliver a tailored concept and pricing — no generic templates, ever.</p>
+          </div>
+        </div>
+        <div class="process__step">
+          <div class="process__number">04</div>
+          <div class="process__content">
+            <h3 data-i18n="p4.title">Build & Handover</h3>
+            <p data-i18n="p4.desc">We build your digital employee and hand it over fully operational, with training and documentation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY -->
+  <section class="why" id="why">
+    <div class="container">
+      <div class="section-header section-header--light">
+        <div class="label label--light" data-i18n="why.label">Why Employbyte</div>
+        <h2 data-i18n="why.title">Built Different. By Design.</h2>
+      </div>
+      <div class="why__grid">
+        <div class="why__item">
+          <div class="why__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/>
+            </svg>
+          </div>
+          <h3 data-i18n="why1.title">Boutique & Custom</h3>
+          <p data-i18n="why1.desc">No off-the-shelf templates. Every digital employee is purpose-built for your exact workflows and systems.</p>
+        </div>
+        <div class="why__item">
+          <div class="why__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <h3 data-i18n="why2.title">Backed by Maxitory</h3>
+          <p data-i18n="why2.desc">Deep expertise in AI, IT, and business consulting. Employbyte is built on Maxitory's proven foundation.</p>
+        </div>
+        <div class="why__item">
+          <div class="why__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+            </svg>
+          </div>
+          <h3 data-i18n="why3.title">GDPR Compliant</h3>
+          <p data-i18n="why3.desc">Your data stays yours. We build with privacy and compliance at the core — always.</p>
+        </div>
+        <div class="why__item">
+          <div class="why__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 11 12 14 22 4"/>
+              <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+            </svg>
+          </div>
+          <h3 data-i18n="why4.title">End-to-End Delivery</h3>
+          <p data-i18n="why4.desc">From first conversation to live deployment — we handle everything, including handover and documentation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CASE STUDIES -->
+  <section class="cases">
+    <div class="container">
+      <div class="section-header">
+        <div class="label" data-i18n="cases.label">Case Studies</div>
+        <h2 data-i18n="cases.title">Digital Employees in Action</h2>
+        <p data-i18n="cases.sub">Real workflows. Real results.</p>
+      </div>
+      <div class="cases__grid">
+        <div class="case-card">
+          <div class="case-card__img">
+            <img src="images/case-2.png" alt="Customer Support Agent" />
+          </div>
+          <div class="case-card__tag" data-i18n="case1.tag">Customer Support</div>
+          <h3 data-i18n="case1.title">AI Support Agent for E-Commerce Brand</h3>
+          <p data-i18n="case1.desc">Automated 80% of incoming support tickets, reduced response time from 4 hours to under 2 minutes.</p>
+          <div class="case-card__meta" data-i18n="case.soon">Coming Soon</div>
+        </div>
+        <div class="case-card">
+          <div class="case-card__img">
+            <img src="images/case-1.png" alt="Sales Strategy" />
+          </div>
+          <div class="case-card__tag" data-i18n="case2.tag">Sales</div>
+          <h3 data-i18n="case2.title">SDR Bot for B2B SaaS Startup</h3>
+          <p data-i18n="case2.desc">Generated 3x more qualified leads per month without adding headcount.</p>
+          <div class="case-card__meta" data-i18n="case.soon">Coming Soon</div>
+        </div>
+        <div class="case-card">
+          <div class="case-card__img">
+            <img src="images/case-3.png" alt="Finance Dashboard" />
+          </div>
+          <div class="case-card__tag" data-i18n="case3.tag">Finance</div>
+          <h3 data-i18n="case3.title">Automated Invoice Processing for SME</h3>
+          <p data-i18n="case3.desc">Saved 12 hours per week of manual finance work with zero errors.</p>
+          <div class="case-card__meta" data-i18n="case.soon">Coming Soon</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section" id="contact" style="background-image: url('images/ai-banner.png');">
+    <div class="container cta-section__inner">
+      <h2 data-i18n="cta.title">Ready to Hire Your First Digital Employee?</h2>
+      <p data-i18n="cta.sub">Book a free 30-minute discovery call. No commitment, no pitch — just a conversation about what's possible for your business.</p>
+      <a href="https://calendly.com/k-beiner-maxitory/30min" target="_blank" rel="noopener" class="btn btn--dark btn--lg" data-i18n="cta.btn">Book Your Free Discovery Call</a>
+      <p class="cta-section__note" data-i18n="cta.note">Free · No Commitment · 30 Minutes</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <div class="footer__logo">Employ<span>byte</span></div>
+        <div class="footer__tagline" data-i18n="footer.tagline">A Maxitory Company</div>
+      </div>
+      <nav class="footer__links">
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#process" data-i18n="nav.process">Process</a>
+        <a href="#why" data-i18n="nav.why">Why Us</a>
+        <a href="https://calendly.com/k-beiner-maxitory/30min" target="_blank" rel="noopener" data-i18n="nav.cta">Book a Call</a>
+      </nav>
+      <div class="footer__legal">
+        <a href="impressum.html" data-i18n="footer.imprint">Imprint</a>
+        <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+        <a href="https://maxitory.com" target="_blank" rel="noopener" class="footer__maxitory">
+          <img src="images/about.png" alt="Maxitory" />
+        </a>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span data-i18n="footer.copy">© 2026 Employbyte. All rights reserved.</span>
+      <div class="lang-toggle lang-toggle--footer">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <span class="lang-divider">|</span>
+        <button class="lang-btn" data-lang="de">DE</button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
